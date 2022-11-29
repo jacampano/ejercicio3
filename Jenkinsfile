@@ -15,8 +15,8 @@ def instalacionSonar = "SonarLocal"
 //Condiciones ejecución fases --
 @Library('eslabones@main')
 def realizarCompilacion = true
-def analizarConSonar = false
-def analizarConOWASP = false
+def analizarConSonar = true
+def analizarConOWASP = true
 def realizarPruebasUnitarias = false
 def deployArtifact = false
 
